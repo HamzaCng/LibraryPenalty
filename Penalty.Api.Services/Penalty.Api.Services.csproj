@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Penalty.Api.Core\Penalty.Api.Core.csproj" />
+    <ProjectReference Include="..\Penalty.Api.Data\Penalty.Api.Data.csproj" />
+  </ItemGroup>
+
+</Project>
